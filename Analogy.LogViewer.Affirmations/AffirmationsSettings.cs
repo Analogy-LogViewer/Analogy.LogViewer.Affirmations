@@ -7,7 +7,7 @@
 
         public AffirmationsSettings()
         {
-            CheckInterval = 1000;
+            CheckInterval = 3000;
             Address = "https://www.affirmations.dev/";
         }
     }
