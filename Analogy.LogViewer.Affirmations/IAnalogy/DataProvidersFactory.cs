@@ -1,0 +1,13 @@
+﻿using Analogy.Interfaces;
+using System;
+using System.Collections.Generic;
+
+namespace Analogy.LogViewer.Affirmations.IAnalogy
+{
+    public class DataProvidersFactory : LogViewer.Template.DataProvidersFactory
+    {
+        public override Guid FactoryId { get; set; } = PrimaryFactory.Id;
+        public override string Title { get; set; } = "Affirmations :)";
+        public override IEnumerable<IAnalogyDataProvider> DataProviders { get; set; } = new List<IAnalogyDataProvider> { new OnlineDataProvider() };
+    }
+}
