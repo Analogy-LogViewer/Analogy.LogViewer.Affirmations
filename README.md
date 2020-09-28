@@ -14,7 +14,7 @@
 <a href="https://github.com/Analogy-LogViewer/Analogy.LogViewer.Affirmations/releases">
     <img src="https://img.shields.io/github/v/release/Analogy-LogViewer/Analogy.LogViewer.Affirmations" alt="Latest Release" />
 </a>
-<a href="https://github.com/Analogy-LogViewer/Analogy.Analogy.LogViewer.Affirmations/compare/V1.0.0...master"> 
+<a href="https://github.com/Analogy-LogViewer/Analogy.LogViewer.Affirmations/compare/V1.0.0...master"> 
   <img src="https://img.shields.io/github/commits-since/Analogy-LogViewer/Analogy.LogViewer.Affirmations/latest" alt="Commits Since Latest Release"  />
 </a>
 
