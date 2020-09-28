@@ -1,7 +1,6 @@
 # Analogy.LogViewer.Affirmations   <img src="./Assets/AnalogyAffirmations.png" align="right" width="155px" height="155px">
 
 [![Gitter](https://badges.gitter.im/Analogy-LogViewer/community.svg)](https://gitter.im/Analogy-LogViewer/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Nuget](https://img.shields.io/nuget/dt/Analogy.LogViewer.Affirmations)](https://www.nuget.org/packages/Analogy.LogViewer.Affirmations/) 
 [![Build Status](https://dev.azure.com/Analogy-LogViewer/Analogy%20Log%20Viewer/_apis/build/status/Analogy-LogViewer.Analogy.LogViewer.Affirmations?branchName=main)](https://dev.azure.com/Analogy-LogViewer/Analogy%20Log%20Viewer/_build/latest?definitionId=39&branchName=main) ![.NET Core Desktop](https://github.com/Analogy-LogViewer/Analogy.LogViewer.Affirmations/workflows/.NET%20Core%20Desktop/badge.svg)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=Analogy-LogViewer/Analogy.LogViewer.Affirmations)](https://dependabot.com)
 <a href="https://github.com/Analogy-LogViewer/Analogy.LogViewer.Affirmations/issues">
