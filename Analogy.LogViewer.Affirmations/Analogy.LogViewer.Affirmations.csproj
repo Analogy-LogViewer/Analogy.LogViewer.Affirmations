@@ -17,7 +17,7 @@
 		<PackageReleaseNotes>Analogy Affirmations</PackageReleaseNotes>
 		<PackageIconUrl />
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Version>1.0.0</Version>
+		<Version>1.1.0</Version>
 		<Company>Analogy.LogViewer</Company>
 		<GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
 		<PackageIcon>AnalogyAffirmations.png</PackageIcon>
@@ -35,7 +35,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Analogy.LogViewer.Interfaces" Version="2.7.2" />
-		<PackageReference Include="Analogy.LogViewer.Template" Version="1.5.0" />
+		<PackageReference Include="Analogy.LogViewer.Template" Version="1.6.0" />
 		<PackageReference Include="Microsoft.Build.Tasks.Git" Version="1.0.0">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

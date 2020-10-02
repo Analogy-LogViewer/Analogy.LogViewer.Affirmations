@@ -15,16 +15,13 @@ namespace Analogy.LogViewer.Affirmations.IAnalogy
         private Timer OnlineFetcher { get; set; }
         private HttpClient httpClient { get; set; }
         public override Guid Id { get; set; } = new Guid("9cb40d24-c91b-4eff-b641-b1c6f9503a60");
+        public override string OptionalTitle { get; set; } = "Affirmations";
         public override async Task<bool> CanStartReceiving() => await Task.FromResult(true);
         public override Image ConnectedLargeImage { get; set; } = Resources.Affirmations32x32;
         public override Image ConnectedSmallImage { get; set; } = Resources.Affirmations16x16;
         public override Image DisconnectedLargeImage { get; set; } = Resources.Affirmations32x32;
         public override Image DisconnectedSmallImage { get; set; } = Resources.Affirmations16x16;
-        public override event EventHandler<AnalogyDataSourceDisconnectedArgs> OnDisconnected;
-        public override event EventHandler<AnalogyLogMessageArgs> OnMessageReady;
-        public override event EventHandler<AnalogyLogMessagesArgs> OnManyMessagesReady;
-
-
+      
         public override async Task InitializeDataProviderAsync(IAnalogyLogger logger)
         {
             await base.InitializeDataProviderAsync(logger);
@@ -36,15 +33,12 @@ namespace Analogy.LogViewer.Affirmations.IAnalogy
 
             OnlineFetcher.Elapsed += async (s, e) =>
             {
-                if (OnMessageReady == null)
-                    return;
                 HttpResponseMessage response = await httpClient.GetAsync("/");
                 response.EnsureSuccessStatusCode();
                 var resp = await response.Content.ReadAsStringAsync();
                 AffirmationData affirmation = JsonConvert.DeserializeObject<AffirmationData>(resp);
                 AnalogyLogMessage m = new AnalogyInformationMessage(affirmation.affirmation, UserSettingsManager.UserSettings.Settings.Address);
-                OnMessageReady?.Invoke(this, new AnalogyLogMessageArgs(m, Environment.MachineName, "Example", Id));
-
+                MessageReady(this, new AnalogyLogMessageArgs(m, Environment.MachineName, "Example", Id));
             };
 
         }
