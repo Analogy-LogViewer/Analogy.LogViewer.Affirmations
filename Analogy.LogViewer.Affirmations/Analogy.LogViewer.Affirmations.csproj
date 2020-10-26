@@ -17,8 +17,10 @@
 		<PackageReleaseNotes>Analogy Affirmations</PackageReleaseNotes>
 		<PackageIconUrl />
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Version>1.1.2</Version>
+		<Version>1.1.3</Version>
 		<Company>Analogy.LogViewer</Company>
+		<Nullable>enable</Nullable>
+		<LangVersion>8.0</LangVersion>
 		<GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
 		<PackageIcon>AnalogyAffirmations.png</PackageIcon>
 	</PropertyGroup>
