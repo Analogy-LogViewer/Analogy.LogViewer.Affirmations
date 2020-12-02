@@ -19,7 +19,7 @@
 		<PackageReleaseNotes>Analogy Affirmations</PackageReleaseNotes>
 		<PackageIconUrl />
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Version>1.1.4</Version>
+		<Version>1.1.5</Version>
 		<Company>Analogy.LogViewer</Company>
 		<Nullable>enable</Nullable>
 		<LangVersion>8.0</LangVersion>
@@ -49,7 +49,7 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-		<PackageReference Include="System.Resources.Extensions" Version="4.6.0" />
+		<PackageReference Include="System.Resources.Extensions" Version="5.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
