@@ -19,7 +19,7 @@
 		<PackageReleaseNotes>Analogy Affirmations</PackageReleaseNotes>
 		<PackageIconUrl />
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Version>1.2.3</Version>
+		<Version>1.2.3.1</Version>
 		<Company>Analogy.LogViewer</Company>
 		<Nullable>enable</Nullable>
 		<LangVersion>8.0</LangVersion>
@@ -38,8 +38,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Analogy.LogViewer.Interfaces" Version="2.12.1" />
-		<PackageReference Include="Analogy.LogViewer.Template" Version="1.8.3.1" />
+		<PackageReference Include="Analogy.LogViewer.Interfaces" Version="2.12.5" />
+		<PackageReference Include="Analogy.LogViewer.Template" Version="1.8.3.2" />
 		<PackageReference Include="Microsoft.Build.Tasks.Git" Version="1.0.0">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
