@@ -22,7 +22,6 @@
 		<Version>1.4.0</Version>
 		<Company>Analogy.LogViewer</Company>
 		<Nullable>enable</Nullable>
-		<LangVersion>10.0</LangVersion>
 		<GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
 		<PackageIcon>AnalogyAffirmations.png</PackageIcon>
 	</PropertyGroup>
