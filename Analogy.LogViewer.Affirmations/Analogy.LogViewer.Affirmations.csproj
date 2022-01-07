@@ -11,7 +11,7 @@
 		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
 		<Authors>Lior Banai</Authors>
 		<Description>Analogy Affirmations</Description>
-		<Copyright>Lior Banai © 2020-2021</Copyright>
+		<Copyright>Lior Banai © 2020-2022</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/Analogy-LogViewer/Analogy.LogViewer.Affirmations</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/Analogy-LogViewer/Analogy.LogViewer.Affirmations</RepositoryUrl>
@@ -19,7 +19,7 @@
 		<PackageReleaseNotes>Analogy Affirmations</PackageReleaseNotes>
 		<PackageIconUrl />
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Version>1.4.0</Version>
+		<Version>1.4.1</Version>
 		<Company>Analogy.LogViewer</Company>
 		<Nullable>enable</Nullable>
 		<GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
@@ -37,13 +37,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Analogy.LogViewer.Interfaces" Version="2.15.1" />
-		<PackageReference Include="Analogy.LogViewer.Template" Version="2.0.0" />
-		<PackageReference Include="Microsoft.Build.Tasks.Git" Version="1.1.0">
+		<PackageReference Include="Analogy.LogViewer.Interfaces" Version="2.15.2" />
+		<PackageReference Include="Analogy.LogViewer.Template" Version="2.1.0" />
+		<PackageReference Include="Microsoft.Build.Tasks.Git" Version="1.1.1">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
-		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.0">
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
